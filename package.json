@@ -1,27 +1,19 @@
 {
   "name": "empbackend01",
-  "version": "1.0.0",
-  "description": "Backend for employee management",
-  "main": "index.js",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node app"
+  },
   "dependencies": {
     "body-parser": "^1.19.0",
+    "cookie-parser": "~1.4.4",
     "cors": "^2.8.5",
-    "express": "^4.17.1",
-    "mongoose": "^5.12.4"
-  },
-  "devDependencies": {},
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start":"node index"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Nandhamaddy007/EmpBackend01.git"
-  },
-  "author": "Nandhagopal",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Nandhamaddy007/EmpBackend01/issues"
-  },
-  "homepage": "https://github.com/Nandhamaddy007/EmpBackend01#readme"
+    "debug": "~2.6.9",
+    "express": "^4.16.4",
+    "http-errors": "~1.6.3",
+    "jade": "~1.11.0",
+    "mongoose": "^5.12.4",
+    "morgan": "~1.9.1"
+  }
 }
